@@ -1,0 +1,41 @@
+input{
+    padding: 8px;
+    width: auto;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+
+#dob{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+#fname, #lname{
+    box-sizing: border-box;
+    margin: 6px 2px;
+}
+
+label{
+    margin: 0 6px;
+}
+
+form{
+    width: 33%;
+}
+
+select{
+    width: 50%;
+    margin: 5px 10px;
+}
+
+button{
+    width: auto;
+}
+
+input[type=button]{
+    border: 1px solid black ;
+
+}
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Employee</title>
+    <link rel="stylesheet" href="/CSS/main.css">
 </head>
 <body>
 
@@ -17,14 +18,20 @@
         <label for="id">Employee ID</label>
         <input type="text" id = employeeId placeholder="Ex. xxxx000b">
         <br>
-        
+
+        <label for="Dob">Date of birth</label>
+        <input type="date" name="Dob" id="dob">
+        <br>
+
+        <label for="location">Location</label>
         <select name="Location" id="location">
             <option>Please select a location</option>
             <option>Seattle</option>
         </select>
         <br>
 
-        <input type="date" name="" id="">
+        <input type="button" value="Add Employee">
     </form>
+    <script src="/TS/main.js"></script>
 </body>
 </html>
