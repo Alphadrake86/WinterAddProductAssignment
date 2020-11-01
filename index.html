@@ -9,7 +9,11 @@
 <body>
 
     <h1>Add Employee</h1>
-    <div id = validation-summary>Error messages go here</div>
+    <div id = validation-summary>
+        <ul id = errorList>
+
+        </ul>
+    </div>
     <form>
         <input type="text" placeholder="First Name" id = "fname">
         <input type="text" placeholder="Last Name" id = lname>
@@ -32,6 +36,9 @@
 
         <input type="button" value="Add Employee">
     </form>
+    <div id = display>
+
+    </div>
     <script src="/TS/main.js"></script>
 </body>
 </html>
