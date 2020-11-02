@@ -38,4 +38,7 @@ input[type=button]{
     border: 1px solid black ;
 
 }
+li{
+    color: red;
+}
 
